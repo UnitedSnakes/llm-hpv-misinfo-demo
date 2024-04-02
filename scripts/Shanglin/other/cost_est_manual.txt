@@ -1,0 +1,38 @@
+###
+misinfo_non_strong:
+145 tweets = 13615 tokens = $0.0204225
+
+misinfo_strong_cases:
+60 tweets = 5083 tokens = $0.0076245
+
+non_negative_cases:
+601 tweets = 51903 tokens = $0.0778545
+
+skepticism:
+73 tweets = 6773 tokens = $0.0101595
+###
+
+misinfo = 202 tweets = 11465 tokens = 
+non-misinfo = 860 tweets = 57583 tokens
+
+zero = 101 tokens
+
+few_k2 = 340 tokens
+
+few_k4 = 552 tokens
+
+few_k6 = 753 tokens
+
+zero_total = (11465 + 57583) + 101 * 1062 tokens = 176,310 tokens
+
+few_k2_total = (11465 + 57583) + 340 * 1062 tokens = 430,128 tokens
+
+few_k4_total = (11465 + 57583) + 552 * 1062 tokens = 655,272 tokens
+
+few_k6_total = (11465 + 57583) + 753 * 1062 tokens = 868,734 tokens
+
+total_input_token = 2,130,444 tokens
+
+chatgpt 3.5 0613: $0.0015 / 1k input tokens
+
+total_input_price = $3.196
